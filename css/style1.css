@@ -1,0 +1,57 @@
+
+/*Inspired by dive into minimalism by Mark Pilgrim*/
+
+body{
+    font-family:"Gill Sans MT","Gill Sans","Goudy Bookletter 1911","Linux Libertine O","Liberation Serif",Candara,serif;
+    font-size: 12pt
+    margin-top: 2%; margin-right: 20%; margin-bottom: 2%; margin-left: 25%;
+    width:40em;
+    line-height:1.75;
+    word-spacing:0.1em
+    }
+    
+A:link {color: INDIGO; text-decoration: none; border-bottom:1px dotted }
+A:visited { color: INDIGO; text-decoration: none; border-bottom:1px dotted }
+A:hover { color: black; border-bottom:1px solid; background: Lavender }
+A:active { color: purple; text-decoration: none }    
+
+h1 a,h2 a,h3 a,#nav a,.punch a{color:inherit !important}
+
+h1{
+    font-family: "trebuchet ms", Arial, Helvetica, sans-serif;
+    font-size: 20pt
+}
+
+span.emph{ 
+font-weight: bold 
+}
+
+span.it{ font-style: italic }
+
+table.header{
+	border-style: none;
+    width: 100%
+}
+
+td.details{
+	text-align: right;
+	width: 50%
+}
+
+td.photo{
+	text-align: left;
+	width: 50%
+}
+
+table.navigation{
+    align: center;
+	border-style: none;
+    width: 100%
+}
+
+td.navlink{
+	text-align: center;
+	width: 11%
+}
+
+</style>
